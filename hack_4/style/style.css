@@ -1,0 +1,108 @@
+:root {
+    --bg-dorado: #B88940;
+    --bg-amarillo: #FFBD59;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linea {
+    background: black;
+    height: 8px;
+    width: 110px;
+    margin: 4% auto 2% auto;
+    border: 2px black solid;
+    border-radius: 8px;
+}
+
+.end {
+    font-size: 40px;
+    font-family: "Ruda", sans-serif;
+    font-weight:700;
+    letter-spacing: 5px;
+}
+
+.sale {
+    font-weight:900;
+    font-size: 150px;
+    color: #B88940;
+    margin: auto;
+    font-family: "Ruda", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 30px;
+    
+}
+
+.off {
+    font-size: 70px;
+    font-family: "Ruda", sans-serif;
+    font-weight:900;
+}
+
+.texto {
+    font-size: 30px;
+    margin: 2% auto 10% auto;
+    font-family: "Catamaran", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lineas, .linea2, .linea3, .linea4 {
+    position: relative;
+    display: flex;
+    width: 95%;
+    height: 70px;
+    background-color: #FFBD59;
+    margin: 2% auto;
+    font-size: 75px;
+}
+
+.imagenes {
+    display: flex;
+    position: absolute;
+    height: 450px;
+    gap: 25px;
+    top: 650px;
+}
+
+.parrafo {
+    position: relative;
+    display:flex;
+    top: 0px;
+    font-size: 30px;
+    margin: 2% auto 25% auto;
+    gap: 260px;
+    font-family: "Catamaran", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.your {
+    font-size: 60px;
+    color: #B88940;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    letter-spacing: 10px;
+}
+
+.texto2 {
+    font-size: 30px;
+    margin: 0 auto 8%;
+    font-family: "Catamaran", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
