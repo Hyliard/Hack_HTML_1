@@ -1,0 +1,150 @@
+:root{
+    --bg-verde: #00bf63;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+.fondo{
+    position: absolute;
+    width: 100%;
+}
+.sincabezado{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.linea{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    width: 23%;
+    border-radius: 70px;
+    padding: 10px 12px 12px 40px;
+    margin: 14% 0 4% 20%;
+}
+.linea2{
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 20%;
+}
+.linea3 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+.linea4{
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+.sincabezado2{
+    position: relative;
+    float: right;
+    background-color: #00bf63;
+    font-size: 90px;
+    border-radius: 900px;
+    width: 20%;
+    color: white;
+    padding: 4% 4% 4% 5%;
+    margin: 11% 17% 0 5%;
+    font-weight:bolder;
+}
+.off{
+    font-size: 60px;
+    padding-left: 15%;
+    font-weight: bold;
+}
+
+.dont {
+    display: flex;
+    position: relative;
+    font-size: 30px;
+    width: 40%;
+    margin-left: 12%;
+}
+
+.imagenes{
+    position: relative;
+    display: flex;
+    margin: 15% 10% 0 12%;
+    justify-content: space-between;
+}
+
+.modelos{
+    position: relative;
+    display: flex;
+    gap: 20%;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 12% 0 12%;
+    padding: 1px;
+    height: 40px;
+}
+
+.modelos2{
+    position: relative;
+    display: flex;
+    gap: 40px;
+    font-size: 30px;
+    margin: 0 10% 0 12%;
+}
+.modelos3{
+    position: relative;
+    display: flex;
+    gap: 40px;
+    font-size: 30px;
+    margin: 0 8.7% 0 3.7%;
+}
+.modelos4{
+    position: relative;
+    display: flex;
+    gap: 40px;
+    font-size: 30px;
+    margin: 0 0 0 5%;
+}
+section{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+.precio{
+    text-decoration: line-through;
+}
+.imagenes2{
+    position: relative;
+    display: flex;
+    margin: 3% 10% 0 12%;
+    justify-content: space-between;
+}
+
+
+.pie{
+    width: 96%;
+    height: 250px;
+    background-color: black;
+    margin: 4% 2% 0 2%;
+}
+.shop{
+    font-size: 30px;
+    color: white;
+    background-color: #00bf63;
+    width: 15%;
+    border-radius: 70px;
+    padding: 10px 12px 12px 40px;
+    margin: 6% 0 0 15%;
+    float: left;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
